@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="rate-card">
+    <span id="star-span">
+      <img id="star" src="images/icon-star.svg" alt="" srcset="">
+    </span>
+    <h1>How did we do?</h1>
+    <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our
+      offering!</p>
+    <form id="rating-form">
+      <div class="rating-section">
+        <input type="radio" id="rate-1" name="rating" value="1">
+        <label for="rate-1" class="rating-number">1</label>
+
+        <input type="radio" id="rate-2" name="rating" value="2">
+        <label for="rate-2" class="rating-number">2</label>
+
+        <input type="radio" id="rate-3" name="rating" value="3">
+        <label for="rate-3" class="rating-number">3</label>
+
+        <input type="radio" id="rate-4" name="rating" value="4">
+        <label for="rate-4" class="rating-number">4</label>
+
+        <input type="radio" id="rate-5" name="rating" value="5">
+        <label for="rate-5" class="rating-number">5</label>
+      </div>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </div>
+  <div class="thank-you-card">
+    <div class="image-section">
+      <img src="images/illustration-thank-you.svg" alt="" srcset="">
+      <span>You selected ? out of 5</span>
+    </div>
+    <div class="message-section">
+      <h2>Thank you!</h2>
+      <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in
+        touch!</p>
+    </div>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
